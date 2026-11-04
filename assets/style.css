@@ -12,8 +12,10 @@
   --highlight: #E3B341;
   --neon-blue: #8FD3FF;
   --neon-gold: #FFC940;
-  --serif: 'Newsreader', Georgia, serif;
-  --mono: 'JetBrains Mono', ui-monospace, monospace;
+  /* Apple's system font (SF Pro) on Apple devices; Segoe UI on Windows, Roboto on Android. Nothing to download. */
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --serif: var(--sans);
+  --mono: var(--sans);
   --hand: 'Caveat', cursive;
 }
 
